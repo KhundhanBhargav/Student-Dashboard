@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item, .side-button, .sub-button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu-item:hover, .side-button:hover, .sub-button:hover {
+    background-color: #555;
+}
+
+.hidden {
+    display: none;
+}
+
+#bikeOptionsContainer {
+    margin-top: 10px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+.right-column {
+    margin-left: 20px;
+}
+
+.calendar {
+    margin-bottom: 20px;
+}
+
+.calendar p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.graph {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+/* Your existing CSS styles */
+.hidden {
+    display: none;
+}
+.colorful-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.colorful-table th, .colorful-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.colorful-table th {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.colorful-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray */
+}
+.hidden {
+    display: none;
+}
+
+.side-button, .sub-button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.side-button:hover, .sub-button:hover {
+    background-color: #0056b3;
+}
